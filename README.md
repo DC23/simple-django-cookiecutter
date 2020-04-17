@@ -13,7 +13,8 @@ TODO: add screenshot
 
 The template as generated has just one app that handles all functionality.
 I know this is not best-practice so feel free to split into multiple apps if
-required.
+required. I just find it quick and convenient on small in-house applications
+that will never see public access.
 
 I wrote this cookiecutter template simply because I don't want to repeat the
 same basic setup for small internal projects. If it is useful to someone else
