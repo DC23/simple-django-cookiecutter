@@ -9,6 +9,8 @@ If you are looking for a basic skeleton application with a cliche 4-pane layout
 (header, footer, left-hand nav panel and scrolling main content panel), then
 maybe this will help.
 
+TODO: add screenshot
+
 The template as generated has just one app that handles all functionality.
 I know this is not best-practice so feel free to split into multiple apps if
 required.
