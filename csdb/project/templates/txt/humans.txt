@@ -1,0 +1,14 @@
+/*
+The humans responsible & technology colophon
+http://humanstxt.org/
+*/
+
+
+Team: CSIRO Scientific Computing, Data61
+
+
+/* SITE */
+
+Language: English
+Standards: HTML5
+Technologies: Python, Django

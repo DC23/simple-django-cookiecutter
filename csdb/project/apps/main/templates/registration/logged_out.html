@@ -1,0 +1,12 @@
+{% extends "main/base.html" %}
+
+{% block head %}
+<meta http-equiv="REFRESH" content="8;{% url 'index' %}" />
+{% endblock head %}
+
+{% block content %}
+
+<p>Thanks for spending some quality time with the {{ settings.SITE_NAME }} today.</p>
+<p>Returning to the <a href="{% url 'index' %}">home page</a>.</p>
+
+{% endblock content %}

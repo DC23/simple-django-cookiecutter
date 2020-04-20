@@ -1,0 +1,31 @@
+[pipenv]
+allow_prereleases = false
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+bumpversion = "*"
+coverage = "*"
+django-debug-toolbar = "*"
+graphviz = ">=0.4"
+pydot = "*"
+pylama = "*"
+pyparsing = "*"
+
+[packages]
+django = "*"
+django-bootstrap4 = "*"
+django-cors-headers = "*"
+django-csp = "*"
+django-extensions = "*"
+django-icons = "*"
+django-settings-export = "*"
+django-split-settings = "*"
+docutils = "*"
+python-decouple = "*"
+
+[requires]
+python_version = "3.6"

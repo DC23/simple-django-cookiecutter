@@ -1,0 +1,7 @@
+[settings]
+;DJANGO_SECRET_KEY=
+;DOMAIN_NAME=
+
+; Set to either development or production
+DJANGO_ENV=development
+;DJANGO_ENV=production
