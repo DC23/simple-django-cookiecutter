@@ -6,7 +6,9 @@
 {% endblock content-heading %}
 
 {% block content %}
-Application Version: 0.1.0<br/>
+{% endraw %}
+Application Version: {{ cookiecutter.version }}<br/>
+{% raw %}
 Debug: {{ settings.DEBUG }}<br/>
 Environment: {{ settings.ENV }}<br/>
 Remote Address: {{ remote_addr }}<br/>
