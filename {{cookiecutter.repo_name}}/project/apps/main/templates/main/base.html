@@ -26,8 +26,6 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <!-- <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/pulse/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-yrfSO0DBjS56u5M+SjWTyAHujrkiYVtRYh2dtB3yLQtUz3bodOeialO59u5lUCFF" crossorigin="anonymous"> -->
     {% block head %}
     {% endblock head %}
 </head>
@@ -35,8 +33,7 @@
 <body onload="updateNavbar('#{{navbar_active_page}}')">
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
         <a class="navbar-brand col-sm-12 col-md-12 mr-0" href="/">
-            <img class="navbar-logo" src="{% static 'main/img/CSIRO_Logo.png' %}" alt="CSIRO Logo" />Carbon Spec
-            Database</a>
+            <img class="navbar-logo" src="{% static 'main/img/CSIRO_Logo.png' %}" alt="CSIRO Logo" />{% endraw %}{{ cookiecutter.project_name }}{% raw %}</a>
     </nav>
 
     <div class="container-fluid">
@@ -112,19 +109,18 @@
                 {% endblock content%}
             </main>
         </div>
+        {% endraw %}
         <div class="row">
             <footer class="footer fixed-bottom container-fluid">
                 <div class="pull-left text-muted">
                     <!-- Contact:&nbsp; -->
                     <i class="fa fa-envelope"></i>&nbsp;
-                    <a class="text-muted" href="mailto:daniel.collins@csiro.au?subject=CSDB - version 0.1.0">
-                        daniel-collins@csiro.au
+                    <a class="text-muted" href="mailto:{{ cookiecutter.email }}?subject={{ cookiecutter.project_name }} - version {{ cookiecutter.version }}">
+                        Email Us
                     </a>
                 </div>
                 <div class="pull-right text-muted">
-{% endraw %}
-                    Version {{ cookiecutter.version }}&numsp;&numsp;&copy; 2020 <a class="text-muted" href="https://www.csiro.au/">CSIRO</a>
-{% raw %}
+                    Version {{ cookiecutter.version }}&numsp;&numsp;&copy; {{ cookiecutter.copyright_year }} <a class="text-muted" href="{{ cookiecutter.org_homepage }}">{{ cookiecutter.organisation }}</a>{% raw %}
                 </div>
             </footer>
         </div>

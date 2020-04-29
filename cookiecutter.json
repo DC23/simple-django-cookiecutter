@@ -1,6 +1,10 @@
 {
     "full_name": "Daniel Collins",
     "email": "email@email.org",
+    "project_name": "Simple Project",
     "repo_name": "simple-django-project",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "copyright_year": "2020",
+    "organisation": "CSIRO",
+    "org_homepage": "https://www.csiro.au"
 }
