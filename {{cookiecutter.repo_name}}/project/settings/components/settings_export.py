@@ -6,7 +6,7 @@
 SETTINGS_EXPORT = [
     "SITE_NAME",
     "DEBUG",
-    "ENV",
+    "ENV"
 ]
 
-# Settings can be accessed in templates via `{{ settings.<KEY> }}`.
+# Settings can be accessed in templates via `{{ '{{' }} settings.<KEY> {{ '}}' }}`.
