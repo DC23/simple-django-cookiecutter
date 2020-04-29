@@ -10,7 +10,7 @@ bootstrap_version = "4.1.1"
 # bootstrap_theme = "flatly"
 # bootstrap_theme = "sandstone"
 # bootstrap_theme = "cerulean"
-bootstrap_theme = "simplex"
+# bootstrap_theme = "simplex"
 # bootstrap_theme = "spacelab"
 
 BOOTSTRAP4 = {

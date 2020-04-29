@@ -27,7 +27,7 @@ else:
     )
 
 # Application title used in templates
-SITE_NAME = "CSIRO Carbon Spec Database"
+SITE_NAME = "{{ cookiecutter.project_name }}"
 
 # Application definition:
 
