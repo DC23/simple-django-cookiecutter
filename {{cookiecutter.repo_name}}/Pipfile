@@ -28,4 +28,4 @@ docutils = "*"
 python-decouple = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "{{ cookiecutter.min_python_version }}"

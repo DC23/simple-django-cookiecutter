@@ -16,7 +16,7 @@
 # Runs the app under Apache's mod_wsgi, as is mentioned in the Django
 # deployment instructions.
 
-FROM python:3.7
+FROM python:{{ cookiecutter.min_python_version }}
 
 ARG HASH=""
 
@@ -24,8 +24,8 @@ ARG HASH=""
 # https://github.com/opencontainers/image-spec/blob/master/annotations.md#back-compatibility-with-label-schema
 
 LABEL org.opencontainers.image.revision="${HASH}"
-LABEL org.opencontainers.image.source="https://bitbucket.csiro.au/projects/SAS/repos/sas_api/"
-LABEL org.opencontainers.image.title="sas_api"
+LABEL org.opencontainers.image.source="{{ cookiecutter.repo_url }}"
+LABEL org.opencontainers.image.title="{{ cookiecutter.repo_name }}"
 
 RUN \
     apt-get update && \
