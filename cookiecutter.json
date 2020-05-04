@@ -4,6 +4,7 @@
     "project_name": "Simple Project",
     "repo_username": "DC23",
     "repo_name": "simple-django-project",
+    "docker_image_name": "{{ cookiecutter.repo_name }}",
     "repo_url": "https://github.com/{{ cookiecutter.repo_username }}/{{ cookiecutter.repo_name }}",
     "version": "0.1.0",
     "copyright_year": "2020",

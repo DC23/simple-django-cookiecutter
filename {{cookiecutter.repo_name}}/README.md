@@ -1,6 +1,8 @@
-# Carbon Spec Database (CSDB) Developer's README
+# {{ cookiecutter.project_name }} Developer's README
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+## TODO: Add your own README stuff...
 
 ## Directory layout
 
@@ -86,7 +88,7 @@ Using the suggested app structure helps keep the apps modular. With almost no ch
 
 ### Install
 
-1. Make sure you have Python 3.6 installed. This is specified in the Pipfile
+1. Make sure you have Python {{ cookiecutter.min_python_version }} installed. This is specified in the Pipfile
 2. Make sure you have [pipenv](https://pipenv.readthedocs.io/en/latest/) installed.
 3. Then create the Python virtual environment with [Pipenv](https://pipenv.readthedocs.io/en/latest/):
 
