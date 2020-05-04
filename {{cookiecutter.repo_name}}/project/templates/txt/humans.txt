@@ -4,9 +4,6 @@ http://humanstxt.org/
 */
 
 
-Team: CSIRO Scientific Computing
-
-
 /* SITE */
 
 Language: English
